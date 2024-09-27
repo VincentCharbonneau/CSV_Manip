@@ -40,11 +40,11 @@ def get_diffrence(data1, data2, titleCol):
     return diff
 
 if __name__ == '__main__':
-    file1Name = 'data/_4.csv'
-    file2Name = 'data/_2.csv'
+    file1Path = 'data/_4.csv'
+    file2Path = 'data/_2.csv'
     titleCol = 4
     resultFileName = 'result.csv'
 
-    data1 = read_csv(file1Name)
-    data2 = read_csv(file2Name)
+    data1 = read_csv(file1Path)
+    data2 = read_csv(file2Path)
     write_csv(get_diffrence(data1, data2, titleCol), resultFileName)

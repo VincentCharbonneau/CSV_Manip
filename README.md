@@ -8,6 +8,7 @@ Additionally, it can identify and return only the lines that differ between the 
 
 Further updates will be made to generalize the project and generate an executable
 
+
 # How to use
 
 1. Put your data csv files in the data folder
